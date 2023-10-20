@@ -1,5 +1,6 @@
 package com.plcoding.bluetoothchat.presentation.components
 
+import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,6 +15,7 @@ import androidx.compose.ui.unit.sp
 import com.plcoding.bluetoothchat.domain.chat.BluetoothDevice
 import com.plcoding.bluetoothchat.presentation.BluetoothUiState
 
+
 @Composable
 fun DeviceScreen(
     state: BluetoothUiState,
@@ -25,7 +27,7 @@ fun DeviceScreen(
             .fillMaxSize()
     ) {
         BluetoothDeviceList(
-            pairedDevices = state.pairedDevices,
+            //pairedDevices = state.pairedDevices,
             scannedDevices = state.scannedDevices,
             onClick = {},
             modifier = Modifier
@@ -48,15 +50,19 @@ fun DeviceScreen(
 
 @Composable
 fun BluetoothDeviceList(
-    pairedDevices: List<BluetoothDevice>,
+    oDevices: List<BluetoothDevice> = listOf(),
+    devicesToConnect: MutableList<BluetoothDevice> = oDevices.toMutableList(),
     scannedDevices: List<BluetoothDevice>,
-    onClick: (BluetoothDevice) -> Unit,
+    onClick: (BluetoothDevice) -> Unit = {
+        devicesToConnect.add(it);
+        //Log.d("TAG", "Connect?")
+    },
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
         modifier = modifier
     ) {
-        item {
+        /*item {
             Text(
                 text = "Paired Devices",
                 fontWeight = FontWeight.Bold,
@@ -64,6 +70,7 @@ fun BluetoothDeviceList(
                 modifier = Modifier.padding(16.dp)
             )
         }
+
         items(pairedDevices) { device ->
             Text(
                 text = device.name ?: "(No name)",
@@ -73,7 +80,7 @@ fun BluetoothDeviceList(
                     .padding(16.dp)
             )
         }
-
+        */
         item {
             Text(
                 text = "Scanned Devices",
@@ -81,9 +88,32 @@ fun BluetoothDeviceList(
                 fontSize = 24.sp,
                 modifier = Modifier.padding(16.dp)
             )
-        }
+        } //adding to list
         items(scannedDevices) { device ->
+            if(device.name != null){
+                Text(
+                    text = device.name,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable { onClick(device) }
+                        .padding(16.dp)
+                )
+            }
+
+        }
+        item {
             Text(
+                text = "(to) Connected Devices",
+                fontWeight = FontWeight.Bold,
+                fontSize = 24.sp,
+                modifier = Modifier.padding(16.dp)
+            )
+        }
+
+        items(devicesToConnect) { device ->
+            Log.d("TAG", "Connect?")
+            Text(
+
                 text = device.name ?: "(No name)",
                 modifier = Modifier
                     .fillMaxWidth()
@@ -91,5 +121,6 @@ fun BluetoothDeviceList(
                     .padding(16.dp)
             )
         }
+
     }
 }
