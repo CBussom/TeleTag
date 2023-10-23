@@ -14,8 +14,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.plcoding.bluetoothchat.domain.chat.BluetoothDevice
 import com.plcoding.bluetoothchat.presentation.BluetoothUiState
+fun connect(device: BluetoothDevice){
 
-
+}
+var devicesToConnect: MutableList<BluetoothDevice> = mutableListOf()
 @Composable
 fun DeviceScreen(
     state: BluetoothUiState,
@@ -50,12 +52,13 @@ fun DeviceScreen(
 
 @Composable
 fun BluetoothDeviceList(
-    oDevices: List<BluetoothDevice> = listOf(),
-    devicesToConnect: MutableList<BluetoothDevice> = oDevices.toMutableList(),
     scannedDevices: List<BluetoothDevice>,
+    oDevices: List<BluetoothDevice> = listOf(),
+    //devicesToConnect: MutableList<BluetoothDevice> = oDevices.toMutableList(),
+
     onClick: (BluetoothDevice) -> Unit = {
-        devicesToConnect.add(it);
-        //Log.d("TAG", "Connect?")
+
+
     },
     modifier: Modifier = Modifier
 ) {
@@ -95,7 +98,19 @@ fun BluetoothDeviceList(
                     text = device.name,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clickable { onClick(device) }
+                        .clickable {
+                            var contains = false
+                            for(x in devicesToConnect){
+                                if(x == device){
+                                    contains = true
+                                }
+
+                            }
+                            if(!contains){
+                                devicesToConnect.add(device)
+                            }
+
+                        }
                         .padding(16.dp)
                 )
             }
@@ -111,13 +126,14 @@ fun BluetoothDeviceList(
         }
 
         items(devicesToConnect) { device ->
-            Log.d("TAG", "Connect?")
+            //Log.d("TAG", "Connect?")
+
             Text(
 
                 text = device.name ?: "(No name)",
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clickable { onClick(device) }
+
                     .padding(16.dp)
             )
         }
