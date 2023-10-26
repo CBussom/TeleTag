@@ -25,7 +25,7 @@
 ## This Week's Goals
 1. Continue building up the new GUI similar to the one we have currently - Cameron Bussom
 2. Create a Game Screen - Cameron Bussom
-3. Continue working on SQLite Database(get it up and running) - Greg Salisbury
+3. Complete SQLite Kotlin tutorial - Greg Salisbury
 4. Get the Bluetooth to connect to other devices - Love Divine Onwulata
 5. Detect Proximity of Connected Bluetooth Devices - Love-Divine Onwulata
 6. Figuring out how to connect the leaderboard to the database and display the players' info - Mahima Abraham
@@ -48,15 +48,16 @@
 
 + ## Greg Salisbury 
     + **Goals of last week:**
-      + Learn enough about SQLite in Android Studio to write code for SQLite tables
-      + Make Teletag Leaderboard table
-    + **Progress and Issues:**
-      + Watched tutorial
-      + Need to start implementation of SQLite
-      + Helped Love dissect and get better understanding of BluetoothChat code
-      + Used my phone for some testing of Love's modification of BluetoothChat code to scan for devices
-    + **Next Week's Goals:**
       + Have SQLite tutorial implementation complete
+      + 
+    + **Progress and Issues:**
+      + Completed database code portion of tutorial
+      + Could be enough code to develop the leaderboard and other tables
+      + Will look into ui portion of tutorial to confirm implementation is working on my phone
+      + Used my phone for testing Bluetooth code with Love
+      + Have not learned enough about SQLite to have any issues, but code seems very straightforward
+    + **Next Week's Goals:**
+      + Have SQLite tutorial code working on my phone
       + Start plan for Teletag SQLite implementation
 
 + ## Love-Divine Onwulata
