@@ -1,4 +1,4 @@
-# Weekly Status Reports - October 18, 2023
+# Weekly Status Reports - October 25, 2023
 
 # *Team Report*
 
@@ -14,12 +14,12 @@
 + Have a basic phone app set up in Adroid Studio for Teletag
 + We have added a history tab
 + We have added a game tab
-+ Have the Bluetooth up and running for the most part
-+ Can Finally scan for bluetooth devices
-+ Filter out unnessesary bluetooth devices
++ Can Access Devices and put them in a list
++ Added a Check to see if device were selected to avoid duplication errors in toConnect list
 + Display only Named Devices
 + Still working on getting the bluetooth to scan for other devices
 + Will have tables to store different player data ready soon
++ Devs working on Bluetooth can't test their code, stagnating progress
 
 
 ## This Week's Goals
@@ -65,13 +65,10 @@
     + **Goals of last week:**
       + Scan for Devices
     + **Progress and Issues:**
-      + Used Tutorial Repository to Scan for Bluetooth Devices
-      + Started implementing Tutorial Repository in project
-      + Scan successfully works
-      + Filters out unnessesary devices
+      + Added a to Connect Device List - A list of devices that to be connected to and added to the database
+      + Added Functionality to avoid duplicates and connecting to devices multiple times to avoid errors
     + **Next Week's Goals:**
       + Connect to Bluetooth Devices
-      + Remember Paired Devices for Game
       + Detect Proximity of (Connected) Devices
 
 + ## Mahima Abraham
