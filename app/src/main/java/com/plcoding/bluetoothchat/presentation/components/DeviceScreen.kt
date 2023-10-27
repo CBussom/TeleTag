@@ -9,6 +9,7 @@ import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -33,32 +34,11 @@ fun DeviceScreen(
         modifier = Modifier
             .fillMaxSize()
     ) {
-        BluetoothDeviceList(
-            //pairedDevices = state.pairedDevices,
-            scannedDevices = state.scannedDevices,
-            onClick = {},
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(1f)
-
-        )
-
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceAround
-        ) {
-            if(!playGame) {
-                Button(onClick = onStartScan) {
-                    Text(text = "Start scan")
-                }
-                Button(onClick = onStopScan) {
-                    Text(text = "Stop scan")
-                }
-                Button(onClick = { playGame = false }) {
-                    Text(text = "Play")
-                }
-            }
-            if(playGame){
+        if(playGame){
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.fillMaxSize()
+            ) {
                 Button(
                     onClick = { playGame = false },
                     modifier = Modifier.padding(16.dp)
@@ -66,7 +46,47 @@ fun DeviceScreen(
                     Text(text = "Back")
                 }
             }
+        }else{
+            //---
+            BluetoothDeviceList(
+                //pairedDevices = state.pairedDevices,
+                scannedDevices = state.scannedDevices,
+                onClick = {
+                    //Log.d("TAG", "HELLO")
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceAround
+            ) {
+                if(!playGame) {
+                    Button(onClick = onStartScan) {
+                        Text(text = "Start scan")
+                    }
+                    Button(onClick = onStopScan) {
+                        Text(text = "Stop scan")
+                    }
+                    Button(onClick = { playGame = true }) {
+                        Text(text = "Play")
+                    }
+                }
+                if(playGame){
+                    Button(
+                        onClick = { playGame = false },
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Text(text = "Back")
+                    }
+                }
+            }
         }
+
+        //-----
     }
 
 }
