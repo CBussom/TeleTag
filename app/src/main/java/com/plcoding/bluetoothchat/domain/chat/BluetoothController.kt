@@ -8,6 +8,7 @@ interface BluetoothController {
 
     fun startDiscovery()
     fun stopDiscovery()
+    fun playScreen()
 
     fun release()
 }

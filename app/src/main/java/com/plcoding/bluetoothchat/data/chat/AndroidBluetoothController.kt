@@ -68,6 +68,10 @@ class AndroidBluetoothController(
         bluetoothAdapter?.cancelDiscovery()
     }
 
+    override fun playScreen() {
+        TODO("Not yet implemented")
+    }
+
     override fun release() {
         context.unregisterReceiver(foundDeviceReceiver)
     }
