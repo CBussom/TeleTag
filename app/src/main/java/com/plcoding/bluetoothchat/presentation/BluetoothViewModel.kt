@@ -13,6 +13,7 @@ import javax.inject.Inject
 @HiltViewModel
 class BluetoothViewModel @Inject constructor(
     private val bluetoothController: BluetoothController
+
 ): ViewModel() {
 
     private val _state = MutableStateFlow(BluetoothUiState())
@@ -34,4 +35,17 @@ class BluetoothViewModel @Inject constructor(
     fun stopScan() {
         bluetoothController.stopDiscovery()
     }
+
+    fun onBackButtonClicked() {
+        TODO("Not yet implemented")
+    }
+    /*
+        fun playScreen() {
+            bluetoothController.playGame()
+        }
+
+        fun onBackButtonClicked() {
+            bluetoothController.backButton()
+        }
+     */
 }
