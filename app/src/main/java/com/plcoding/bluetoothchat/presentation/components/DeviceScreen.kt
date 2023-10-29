@@ -63,7 +63,7 @@ fun DeviceScreen(
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceAround
-            ) {
+            ) {//-
                 if(!playGame) {
                     Button(onClick = onStartScan) {
                         Text(text = "Start scan")
@@ -83,7 +83,7 @@ fun DeviceScreen(
                         Text(text = "Back")
                     }
                 }
-            }
+            }//-
         }
 
         //-----
