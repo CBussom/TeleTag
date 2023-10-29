@@ -1,0 +1,25 @@
+name: Example Addition Test
+
+on:
+  push:
+    branches:
+      - main # or your default branch
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11' # Use the desired Java version
+
+    - name: Build and run tests
+      run: |
+        chmod +x ./gradlew
+        ./gradlew test
