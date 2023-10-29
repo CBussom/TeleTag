@@ -3,23 +3,22 @@ name: Example Addition Test
 on:
   push:
     branches:
-      - master # or your default branch
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up JDK
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11' # Use the desired Java version
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt' # Specify the distribution, e.g., 'adopt', 'adopt-hotspot', 'adopt-openj9', etc.
 
-    - name: Build and run tests
-      run: |
-        chmod +x ./gradlew
-        ./gradlew test
+      - name: Build and run tests
+        run: |
+          chmod +x ./gradlew
+          ./gradlew test
