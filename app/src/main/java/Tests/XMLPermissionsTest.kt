@@ -2,7 +2,9 @@ package Tests
 import android.content.pm.PackageManager
 import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.Assert.assertEquals
+import org.junit.Test
 class XMLPermissionsTest {
+    @Test
     fun testBluetoothPermission() {
         val permissionToCheck = android.Manifest.permission.BLUETOOTH
         val context = InstrumentationRegistry.getInstrumentation().targetContext
