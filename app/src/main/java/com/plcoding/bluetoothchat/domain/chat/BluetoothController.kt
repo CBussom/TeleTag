@@ -12,6 +12,7 @@ interface BluetoothController {
 
     fun startBluetoothServer(): Flow<ConnectionResult>
     fun connectToBluetooth(device: BluetoothDevice): Flow<ConnectionResult>
+
     fun playScreen()
 
     fun release()
