@@ -68,17 +68,17 @@
 
 + ## Mahima Abraham
     + **Goals of last week:**
-      + Finish(if possible) having the tag button go hand in hand with the Bluetooth.
-      + Start implementing different features I have found(implemented on my own project) to our GUI and working on getting the frameworks or looks of the app improved.
-      + Start(continue looking into) implementing the leaderboard that will be connected to the database.
-      + Look into how to connect the leaderboard to the database.  
-    + **Progress and Issues:**
-      + Still working on how to get the tag button go hand in hand with the bluetooth connection now that we have the bluetooth functioning for the most part. 
-      + Still looking into how to implement to the leaderboard and display the data for the players to use.
-      + Trying to find more features to implement for the GUI
-      + Currently have no issues.   
-    + **Next Week's Goals:**
       + Finish(if possible) having the tag button go hand in hand with the Bluetooth - should be done soon now that we have Bluetooth working
       + Continue implementing different features I have found(implemented on my own project) to our GUI and working on getting the frameworks or looks of the app improved.
       + Start(continue looking into) implementing the leaderboard that will be connected to the database - database will be up and running within the coming week or so. 
+      + Look into how to connect the leaderboard to the database. improved.
+      + Start(continue looking into) implementing the leaderboard that will be connected to the database.
       + Look into how to connect the leaderboard to the database.  
+    + **Progress and Issues:**
+      + Still looking into how to implement to the leaderboard and display the data for the players to use.
+      + Trying to find more features to implement for the GUI to improve the layout we have currently. 
+    + **Next Week's Goals:**
+      + Finish having the tag button go hand in hand with the Bluetooth - should be done soon now that we have Bluetooth working
+      + Start(continue looking into) implementing the leaderboard that will be connected to the database - database will be up and running within the coming week or so. 
+      + Look into how to connect the leaderboard to the database.
+      + Improve the GUI we have currently in place. 
