@@ -60,11 +60,11 @@
     + **Goals of last week:**
       + Scan for Devices
     + **Progress and Issues:**
-      + Added a to Connect Device List - A list of devices that to be connected to and added to the database
-      + Added Functionality to avoid duplicates and connecting to devices multiple times to avoid errors
+      + Adding Connecting to bluetooth feature
+      + Bluetooth Connecting is taking some time to implement
     + **Next Week's Goals:**
       + Connect to Bluetooth Devices
-      + Detect Proximity of (Connected) Devices
+      + Send Data through Bluetooth
 
 + ## Mahima Abraham
     + **Goals of last week:**
