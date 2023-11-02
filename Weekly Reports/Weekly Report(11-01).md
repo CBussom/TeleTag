@@ -44,17 +44,17 @@
 
 + ## Greg Salisbury 
     + **Goals of last week:**
-      + Have SQLite tutorial implementation complete
-      + 
-    + **Progress and Issues:**
-      + Completed database code portion of tutorial
-      + Could be enough code to develop the leaderboard and other tables
-      + Will look into ui portion of tutorial to confirm implementation is working on my phone
-      + Used my phone for testing Bluetooth code with Love
-      + Have not learned enough about SQLite to have any issues, but code seems very straightforward
-    + **Next Week's Goals:**
-      + Have SQLite tutorial code working on my phone
+      + Have SQLite tutorial code working on phone
       + Start plan for Teletag SQLite implementation
+    + **Progress and Issues:**
+      + Watched tutorial on Android Studio Kotlin GUI creation in prep for SQLite testing
+      + Will create a basic GUI to confirm that the tutorial code works
+      + After verifying the code, will modify to more directly suit our needs
+      + Will discuss with rest of team to understand exactly what is required of SQLite database
+    + **Next Week's Goals:**
+      + SQLite tutorial code working
+      + SQLite code for Teletag ready
+      + Start integration into Teletag Github
 
 + ## Love-Divine Onwulata
     + **Goals of last week:**
