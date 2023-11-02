@@ -30,13 +30,17 @@
 
 + ## Cameron Bussom
     + **Goals of last week:**
-      + Create a simple interface to allow user to connect via bluetooth
       + Create Play game button and screen
+      + Create View for game
     + **Progress and Issues:**
       + Have a working bluetooth version from a found project
       + GUI Game button added to take to blank page
+      + The GUI views are all wonky
     + **Next Week's Goals:**
       + Continue working on GUI and tying it to the bluetooth
+      + Figure out the view thing and get it all working
+      + Try to simplify the code it's a mess right now
+      + Try to fix everything with GPT4
       + learn more about GUI in android studio
       + look into more bluetooth documentation
       + Find a way to test the application on computer or find some sort of android device
