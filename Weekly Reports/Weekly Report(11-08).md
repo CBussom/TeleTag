@@ -36,21 +36,21 @@
 
 + ## Cameron Bussom
     + **Goals of last week:**
-      + Create Play game button and screen
-      + Create View for game
+      + Get the bluetooth functioning properly
+      + get the viewmodels moving
     + **Progress and Issues:**
       + Have a working bluetooth version from a found project
       + GUI Game button added to take to blank page
       + The GUI views are all wonky
+      + Found an android device to test on
+      + simplified the code
     + **Next Week's Goals:**
       + Continue working on GUI and tying it to the bluetooth
-      + Figure out the view thing and get it all working
-      + Try to simplify the code it's a mess right now
+      + Figure out how to stop the viewmodels from crashing the app
       + Try to fix everything with GPT4
       + learn more about GUI in android studio
       + look into more bluetooth documentation
-      + Find a way to test the application on computer or find some sort of android device
-      + Find a way to test on iphone possibly
+      + Get the connections actually working fully
 
 + ## Greg Salisbury 
     + **Goals of last week:**
