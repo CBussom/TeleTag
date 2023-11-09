@@ -5,7 +5,7 @@
 ## Last Week's Goals:
 1. Continue building up the new GUI similar to the one we have currently - Cameron Bussom
 2. Create a Game Screen - Cameron Bussom
-3. Complete SQLite Kotlin tutorial - Greg Salisbury
+3. Have SQLite code ready for implementation - Greg Salisbury
 4. Get the Bluetooth to connect to other devices - Love Divine Onwulata
 5. Detect Proximity of Connected Bluetooth Devices - Love-Divine Onwulata
 6. Figuring out how to connect the leaderboard to the database and display the players' info - Mahima Abraham
@@ -29,7 +29,8 @@
 ## This Week's Goals
 1. Improving the GUI currently in place
 2. Get the Bluetooth to work fully meaning fix the app from crashing whenever we click on a device to connect to.
-3. Be able to connect to other devices and communicate between the two. 
+3. Be able to connect to other devices and communicate between the two.
+4. Make all ViewModels access data from 1 place
 
 # *Individual Team Contributions*
 
@@ -53,17 +54,15 @@
 
 + ## Greg Salisbury 
     + **Goals of last week:**
-      + Have SQLite tutorial code working on phone
-      + Start plan for Teletag SQLite implementation
-    + **Progress and Issues:**
-      + Watched tutorial on Android Studio Kotlin GUI creation in prep for SQLite testing
-      + Will create a basic GUI to confirm that the tutorial code works
-      + After verifying the code, will modify to more directly suit our needs
-      + Will discuss with rest of team to understand exactly what is required of SQLite database
-    + **Next Week's Goals:**
       + SQLite tutorial code working
       + SQLite code for Teletag ready
       + Start integration into Teletag Github
+    + **Progress and Issues:**
+      + Got clarification from group as to what tables would be required
+      + Discussed whether database would be needed with the current status of our project
+      + Planning to look into having data stored in 1 place for ViewModels to access, negating use of database for now
+    + **Next Week's Goals:**
+      + Make all ViewModels access data from 1 place
 
 + ## Love-Divine Onwulata
     + **Goals of last week:**
