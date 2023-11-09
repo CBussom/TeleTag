@@ -68,8 +68,8 @@
     + **Goals of last week:**
       + Scan for Devices
     + **Progress and Issues:**
-      + Adding Connecting to bluetooth feature
-      + Bluetooth Connecting is taking some time to implement
+      + App keeps crashing
+      + Check to make sure Bluetooth is connecting properly
     + **Next Week's Goals:**
       + Connect to Bluetooth Devices
       + Send Data through Bluetooth
