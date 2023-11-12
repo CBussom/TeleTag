@@ -40,10 +40,17 @@
         ![image](https://github.com/CBussom/TeleTag/assets/143213640/185c2079-c2fa-4c96-8e11-50ca73ef8ed4)
 
    3. Synch the Gradle Files
-      + After the files have been created, click on the "Sync Now" link that is at the top right of the Android Studio app to synch the gradle files(picture below). This is essential as it makes sure that the project is updated with the latest configurations and dependencies. 
-      
-           ![image](https://github.com/CBussom/TeleTag/assets/143213640/ca75960a-f6c1-47f2-b60f-039842302192)
+      + After the files have been created, click on the "Sync Now" link that is at the top right of the Android Studio app to synch the gradle files(picture below). This is essential as it makes sure that the project is updated with the latest configurations and dependencies.
+      +  ![image](https://github.com/CBussom/TeleTag/assets/143213640/ca75960a-f6c1-47f2-b60f-039842302192)
 
+   4. Build the Project
+      + Click on the "Build" menu in Android Studio and select "Rebuild Project"(picture below). This ensures that the project is cleaned and rebuilt, compiling the source coude and resolving dependencies.
+      +  ![image](https://github.com/CBussom/TeleTag/assets/143213640/81172e85-6cdd-4772-b4cb-02e3516c680e)
+
+   5. Resolve Issues
+      + If there are any issues that occured when the project was being rebuilt, the IDE will display the errors in the "Messages" pane at the bottom under the Problems tab. If there are any errors, maxy necessary fixes.
+   6. Run on a Device or Emulator 
+            
 
 # ***How To Test The System***
 1. start here
