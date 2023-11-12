@@ -42,7 +42,8 @@
    3. Synch the Gradle Files
       + After the files have been created, click on the "Sync Now" link that is at the top right of the Android Studio app to synch the gradle files(picture below). This is essential as it makes sure that the project is updated with the latest configurations and dependencies. 
       
-           ![image](https://github.com/CBussom/TeleTag/assets/143213640/53f15c73-74c6-4b44-b828-bbcd71ef17d9)
+           ![image](https://github.com/CBussom/TeleTag/assets/143213640/ca75960a-f6c1-47f2-b60f-039842302192)
+
 
 # ***How To Test The System***
 1. start here
