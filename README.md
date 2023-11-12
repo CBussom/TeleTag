@@ -23,3 +23,12 @@
      + Our Proposal Document - TeleTag_Proposal
      + Our Original Requirements Document - TeleTag_Requirements_487W
      + Our Updated Requirements Document(Softwaer Architecture) - TeleTag-m4
+
+# ***Instructions On How To Build And Run The System 
+1. start here
+
+# ***Instructions On How To Run The System
+1. start here
+
+# ***Use Case(s) That Are Operational
+1. start here
