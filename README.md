@@ -24,10 +24,30 @@
      + Our Original Requirements Document - TeleTag_Requirements_487W
      + Our Updated Requirements Document(Softwaer Architecture) - TeleTag-m4
 
-# ***Instructions On How To Build And Run The System***
+# ***How To Build The System***
+#### Using the directions found under the version control(can be found in our Living Document or in this Read.me File) open up the project in Android Studio. Using Android Studion, build the system using the steps as follows:
+   1. Locate the 'build.gradle' Files.
+      + There are usually two 'build.gradle' files that can be found in an Android Studio Project. One file is for the project and one for the app module.
+      + Project 'build.gradle' file - This file, located in the root of the project, includes all the settings and configurations for the project. For this project you have to apply the Android Gradle plugin and the Kotlin Android Extensions plug in in this file. Enter it into the file as follows:
+        ![image](https://github.com/CBussom/TeleTag/assets/143213640/2ff66931-4796-49b8-bb6c-ae9ccf495b32)
+
+      + App module 'build.gradle' file - This file includes all the configurations that are tied to the Android Application itself, in this case our TeleTag app. Do it as follows:
+        ![image](https://github.com/CBussom/TeleTag/assets/143213640/7b48e272-fbff-48ad-9e19-b8332f7bb5e9)
+        ![image](https://github.com/CBussom/TeleTag/assets/143213640/ed296673-c637-4123-a5cf-f9f522b323f1)
+        
+   2. Configure the Dependiencies
+      + Inside the 'build.gradle' file for the app module, specify the dependencies for the project. Since this project uses Bluetooth function, make sure to add necessary dependencies related to Bluetooth functionailty. Add the dependencies as follows underneath the configurations that were added in step 1:
+        ![image](https://github.com/CBussom/TeleTag/assets/143213640/185c2079-c2fa-4c96-8e11-50ca73ef8ed4)
+
+   3. Synch the Gradle Files
+      + After the files have been created, click on the "Sync Now" link that is at the top right of the Android Studio app to synch the gradle files(picture below). This is essential as it makes sure that the project is updated with the latest configurations and dependencies. 
+      
+           ![image](https://github.com/CBussom/TeleTag/assets/143213640/53f15c73-74c6-4b44-b828-bbcd71ef17d9)
+
+# ***How To Test The System***
 1. start here
 
-# ***Instructions On How To Run The System***
+# ***How To Run The System***
 1. start here
 
 # ***Use Case(s) That Are Operational***
