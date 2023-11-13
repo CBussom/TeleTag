@@ -82,7 +82,7 @@
    2. Create a new Kotlin class file and name it to the test you want to create.
    3. Create a the class, then the function that contains the test.
    4. After writing the test, write @Test above the function
-   5. Psh the changes to GitHub so the test can be ran. 
+   5. Push the changes to GitHub so the test can be ran. 
 
 # ***How To Run The System***
 #### Before Running the System, make sure you have the project opened in Android Studio and you have built the system following the instructions above. 
