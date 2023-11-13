@@ -22,7 +22,8 @@
 4. #### We have a folder called Living Documents that contain three PDFS:
      + Our Proposal Document - TeleTag_Proposal
      + Our Original Requirements Document - TeleTag_Requirements_487W
-     + Our Updated Requirements Document(Softwaer Architecture) - TeleTag-m4
+     + Our Updated Living Document(Software Architecture) - TeleTag-m4
+     + Our Updated Living Document(Alpha Release)
    
 # ***Solidifying our Toolchain and Processes***
 1. ## **Version Control**
