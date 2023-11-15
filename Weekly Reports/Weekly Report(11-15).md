@@ -22,12 +22,14 @@
 + Got the viewmodels working in hand with the Bluetooth connection.
 + Right now the app is crashing when we are switching the views.
 + The app is only running on Cameron's Android device without crashing.
++ Making ViewModels access data from 1 place not a pressing matter at the moment. 
 
 
 ## This Week's Goals
 1. Fix the bugs within the app so that it won't crash when the users are switching the views(peer review).
 2. Get the app to run, without crashing, on other Android devices.
-3. Get the connection up and running between the devices. 
+3. Get the connection up and running between the devices.
+4. Edit SQLite code to create correct tables
 
 # *Individual Team Contributions*
 
@@ -51,15 +53,13 @@
 
 + ## Greg Salisbury 
     + **Goals of last week:**
-      + SQLite tutorial code working
-      + SQLite code for Teletag ready
-      + Start integration into Teletag Github
+      +  Make all ViewModels access data from 1 place
     + **Progress and Issues:**
-      + Got clarification from group as to what tables would be required
-      + Discussed whether database would be needed with the current status of our project
-      + Planning to look into having data stored in 1 place for ViewModels to access, negating use of database for now
+      + Implemented SQLite tutorial code 
+      + Have not looked into making all ViewModels access data from 1 place
+      + Prerequisite code not working at the moment, causing app to crash
     + **Next Week's Goals:**
-      + Make all ViewModels access data from 1 place
+      + Edit SQLite code to make correct tables
 
 + ## Love-Divine Onwulata
     + **Goals of last week:**
