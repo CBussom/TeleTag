@@ -86,6 +86,7 @@
    5. Push the changes to GitHub so the test can be ran. 
 
 # ***How To Run The System***
+#### Make sure to download Android Studio Giraffe 2022.3.1 Patch 2 using the following link - https://developer.android.com/studio 
 #### Before Running the System, make sure you have the project opened in Android Studio and you have built the system following the instructions above. 
 #### To run the system, follow the steps below using either an Emulator or an Android Device:
 #### To run the app using the Emulator:
