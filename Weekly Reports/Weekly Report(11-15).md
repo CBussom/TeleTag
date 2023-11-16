@@ -9,20 +9,10 @@
 4. Make all ViewModels access data from 1 place
    
 ## Progress and Issues:
-+ Have a basic phone app set up in Adroid Studio for Teletag
-+ We have added a history tab
-+ We have added a game tab
-+ Can Access Devices and put them in a list
-+ Added a Check to see if device were selected to avoid duplication errors in toConnect list
-+ Display only Named Devices
-+ Got the Bluetooth up and running and able to scan for other devices
-+ Will have tables to store different player data ready soon
-+ Devs working on Bluetooth can't test their code, stagnating progress
-+ Are able to have the app up and running on the android devices we have
-+ Got the viewmodels working in hand with the Bluetooth connection.
-+ Right now the app is crashing when we are switching the views.
-+ The app is only running on Cameron's Android device without crashing.
-+ Making ViewModels access data from 1 place not a pressing matter at the moment. 
++ There are multiple views now
++ The App connects only to other app users
++ The app has a blutooth server
++ The app crashes on any emulator or device other than Cameron's android 8 device 
 
 
 ## This Week's Goals
@@ -66,10 +56,12 @@
       + Scan for Devices
     + **Progress and Issues:**
       + App keeps crashing
-      + Check to make sure Bluetooth is connecting properly
+      + Possibility of multiple bluetooth servers causing crash
+      + Created Bluetooth Server
+      + Code should only connect to devices using the app
     + **Next Week's Goals:**
-      + Connect to Bluetooth Devices
-      + Send Data through Bluetooth
+      + Get App not to crash
+      + Detect Proximity
 
 + ## Mahima Abraham
     + **Goals of last week:**
