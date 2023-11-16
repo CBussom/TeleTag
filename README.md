@@ -1,6 +1,6 @@
 # TeleTag
 
-# ***How To Launch The App - User Guide
+# ***How To Launch The App - User Guide***
 #### Steps to download Android Studio 
 + Use the following link to download Android Studio: https://developer.android.com/studio 
 + Once you click on the link, make sure you are on the right website but checking if you see the image below on your screen:
@@ -38,18 +38,8 @@
 
 + If you are installing Android Studios for the first time, keep the default settings(Do not import settings) and click "OK".
 + 
-
-
-
-
-
-
-
-
-
-
-
-# How to import the Github File of our Project into Android Studio:
+------------------------------------------------------------------------------------------------------------------------------------
+#### How to import the Github File of our Project into Android Studio:
 + start here
 
 
