@@ -37,21 +37,20 @@
 <img src="https://github.com/CBussom/TeleTag/assets/143213640/eef8d950-0ac5-48ae-ab88-872374352b54" width="400" height="200">
 
 + If you are installing Android Studios for the first time, keep the default settings(Do not import settings) and click "OK".
-+ 
++ The Welcome window will pop up. Click "Next."
++ Then it will prompt you to choose the Install Type. Choose "Standard" which will install Android Studio with common settings.
++ Select the theme you want(Dark/Light),
++ Now, you will be prompted to verify the settings. Click "Finish."
++ Finally, a screen called "Download Components" will pop up. This is downloading all the settings and configurations for Android Studios. Once that it is done, the "Finish" button at the bottom will be enabled. Click on it and Android Studios is installed. 
 ------------------------------------------------------------------------------------------------------------------------------------
 #### How to import the Github File of our Project into Android Studio:
 + start here
 
-
-#### Before Running the System, make sure you have the project opened in Android Studio and you have built the system following the instructions above. 
-#### To run the system, follow the steps below using either an Emulator or an Android Device:
+#### Before Running the App, make sure you have installed Android Studios following the steps above. Also, make sure you have imported the project into Android Studios using the instructions above. 
+#### To launch the app using the Emulator, follow the steps below:
 #### To run the app using the Emulator:
    1. Click the green play button that when you hover over it will say "Run Main Activity". Once you run the program, at the bottom it will say the gradle is building and once that is done, you will get a notification saying "The App Is Getting Ready to Launch." Once it launches, the app will be deployed onto your screen as shown below.
       ![image](https://github.com/CBussom/TeleTag/assets/143213640/6451864a-26dd-4530-b391-d789df28ae25)
-#### To run the app using an Android Device: 
-   2. If you do have an actual Android Device, using a USBC cable connect your phone to your laptop/computer. Once it is connected your phone's name should pop up at the top(pictured below). Once the name pops up, click on the green play button, which when you hover over it will say "Run Main Activity". This will deploy the app onto your Android Device.
-      + ![image](https://github.com/CBussom/TeleTag/assets/143213640/1e1f0cb9-61b5-4a4d-811b-2bfced8b6c11)
-      + If you get an error about your SDK location, make sure you have a file called "local.properties" and it has the correct location for your SDK directory. The example is below.
-      + ![image](https://github.com/CBussom/TeleTag/assets/143213640/6e301108-bbc2-485a-9b58-5cb0661e7e4e)
+
 
 
