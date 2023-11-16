@@ -33,13 +33,14 @@
       + The GUI views are all wonky
       + Found an android device to test on
       + simplified the code
+      + viewmodels work
     + **Next Week's Goals:**
-      + Continue working on GUI and tying it to the bluetooth
-      + Figure out how to stop the viewmodels from crashing the app
+      + Continue working on GUI and tying it to the connection working
+      + Figure out how to stop the viewmodels from crashing the app, it's inconsistent
       + Try to fix everything with GPT4
-      + learn more about GUI in android studio
-      + look into more bluetooth documentation
+      + Get the devices being shown on different viewmodels based on changes in previous viewmodel
       + Get the connections actually working fully
+      + Tie database into the connection stuff
 
 + ## Greg Salisbury 
     + **Goals of last week:**
